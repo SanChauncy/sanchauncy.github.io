@@ -1,3 +1,12 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: liushibo
+ * @Date: 2021-08-20 15:14:18
+ * @LastEditors: liushibo
+ * @LastEditTime: 2021-08-20 17:14:50
+ * @FilePath: \blog\docs\guide.md
+-->
 ### 创建数据库
 
 ```javascript
@@ -35,4 +44,9 @@ update.run(1, 1);
 ### 删除数据
 ```javascript
  this.db.exec("delete from Photo;update sqlite_sequence SET seq = 0 where name ='Photo';");
+```
+### electron-vue使用sqlite3
+
+```js
+
 ```
